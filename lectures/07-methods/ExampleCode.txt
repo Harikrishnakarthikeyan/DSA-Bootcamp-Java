@@ -1,0 +1,26 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    static int b=90;
+    public static void main(String[] args) {
+        Integer w=99999;
+        int a=70;
+        Integer y=w;
+        {
+            a=10;
+        }
+        System.out.println(b);
+        var();
+        System.out.println(b);
+
+        // System.out.println(a);
+        // System.out.println(w == y);
+        // System.out.println(w == y);
+        // System.out.println(y);
+    }
+    public static void var(){
+       int b=20;
+       b=56;
+    }
+}
